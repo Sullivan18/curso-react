@@ -1,10 +1,8 @@
-import Frase from "./Frase";
-
 function HelloWorld() {
   return (
     <div>
-      <p>Calculadora</p>
-      <Frase />
+      <h2>Hello</h2>
+      
     </div>
   );
 }

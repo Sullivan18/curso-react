@@ -1,18 +1,16 @@
 import "./App.css";
-import HelloWorld from "./components/HelloWord";
+import Pessoa from "./components/Pessoa";
 
 function App() {
-  const name = "André";
-  const upperName = name.toUpperCase();
-
   return (
     <div className="App">
       <h1>Olá react</h1>
-      <p>Primeiro programa</p>
-      <p>Olá {name}</p>
-      <p>Olá {upperName}</p>
-
-      <HelloWorld />
+      <Pessoa
+        nome="Rodrigo"
+        idade="23"
+        profissao="programador"
+        foto="https://extra.globo.com/incoming/25476737-77f-666/w488h275-PROP/img_1751.jpg"
+      />
     </div>
   );
 }
